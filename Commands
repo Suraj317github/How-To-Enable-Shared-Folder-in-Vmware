@@ -1,0 +1,5 @@
+## Open a terminal in kali and execute the commands given below. ##
+
+cd /mnt 
+sudo mkdir hgfs
+sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
